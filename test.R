@@ -7,7 +7,7 @@ pacman::p_load(tidyverse, modelr, lubridate, primes, sfsmisc, nycflights13)
 
 stocks <- tibble(
   year   = c(2015, 2015, 2016, 2016),
-  half  = c(   1,    2,     1,    2),
+  half  = c(1,    2,     1,    2),
   return = c(1.88, 0.59, 0.92, 0.17)
 )
 stocks %>% 
